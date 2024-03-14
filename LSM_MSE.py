@@ -61,7 +61,8 @@ mse = mse(x,y,m,b)
 print("mean squared error:", mse)
 
 #predicts an x value 
-x_values, y_hat = fit(1700,m,b)
+x_value_to_predict = 1700
+x_values, y_hat = fit(x_value_to_predict, m, b)
 print("predicted x value:", x_values)
 print("gpa for predicted x value is:", y_hat)
 
